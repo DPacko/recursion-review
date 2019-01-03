@@ -18,7 +18,6 @@ var getElementsByClassName = function(className) {
         result.push(node)
       }
       // loop through the node children
-      console.log(node.children);
       for (let i = 0; i < node.children.length; i++) {
         // we are going to invoke it , extra step.. overall
 
@@ -29,3 +28,4 @@ var getElementsByClassName = function(className) {
   // return a list
   return result;
 };
+
